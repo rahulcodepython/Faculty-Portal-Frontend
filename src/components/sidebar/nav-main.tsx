@@ -72,7 +72,7 @@ const CollapsibleItem = ({
         return (
             <SidebarMenuSubItem>
                 <SidebarMenuSubButton asChild>
-                    <Link href={item.url} className="text-xs font-medium">
+                    <Link href={item.url} className="">
                         {item.title}
                     </Link>
                 </SidebarMenuSubButton>
