@@ -61,7 +61,7 @@ export default function Dashboard() {
                     </div>
                     <div className="text-right">
                         <div className="text-2xl font-bold">CS-301, CS-302</div>
-                        <div className="text-blue-100">Today's Classes</div>
+                        <div className="text-blue-100">{`Today's Classes`}</div>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@ export default function Dashboard() {
                     <CardHeader>
                         <CardTitle className="flex items-center gap-2 text-blue-700">
                             <Calendar className="w-5 h-5" />
-                            Today's Schedule
+                            {`Today's Schedule`}
                         </CardTitle>
                         <CardDescription>Your classes and appointments</CardDescription>
                     </CardHeader>
